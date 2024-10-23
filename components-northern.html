@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Team Apex</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Team Apex</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>New Data Update Available!</h4>
+                <p>The latest electricity access data for all regions has been updated. Click here to view the new insights."
+                </p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>System Maintenance Scheduled</h4>
+                <p>Scheduled system maintenance will occur on September 15th from 2:00 AM to 5:00 AM. Services may be temporarily unavailable.</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>New Feature Released!</h4>
+                <p>A new feature to monitor renewable energy usage in households has been added. Explore it in the dashboard!</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Energy Consumption Alert</h4>
+                <p>Your energy consumption exceeded 20% more than last month. Check your usage in the Home Automation panel for details.</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>I love how easy it is to access energy data for different regions and the chatbot gave me the information I needed quickly. Great job on the interface!</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>The dashboard is very user-friendly. I was able to get insights on electricity access within seconds</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>The data on electricity access took too long to load...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+       >
+          </a><!-- End Profile Iamge Icon -->
+
+          
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Electricity Access</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-wester.html">
+              <i class="bi bi-circle"></i><span>Western Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-central.html">
+              <i class="bi bi-circle"></i><span>Central Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-accra.html">
+              <i class="bi bi-circle"></i><span>Greater Accra Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-volta.html">
+              <i class="bi bi-circle"></i><span>Volta Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-ashanti.html">
+              <i class="bi bi-circle"></i><span>Ashanti Region</span>
+            </a>
+          </li>
+          <li>
+            <li>
+              <a href="components-northern.html">
+                <i class="bi bi-circle"></i><span>Northern Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-eastern.html">
+                <i class="bi bi-circle"></i><span>Eastern Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-bono.html">
+                <i class="bi bi-circle"></i><span>Bono Region</span>
+              </a>
+            </li>
+            <li>
+            
+                <a href="components-savaana.html">
+                  <i class="bi bi-circle"></i><span>Savannah Region</span>
+                </a>
+              </li>
+              <li>
+                <a href="components-ahafo.html">
+                  <i class="bi bi-circle"></i><span>Ahafo Region</span>
+                </a>
+              </li>
+              <li>
+                <a href="components-bonoeast.html">
+                  <i class="bi bi-circle"></i><span>Bono East Region</span>
+                </a>
+              </li>
+              <li>
+              <a href="components-northeast.html">
+                <i class="bi bi-circle"></i><span>North East Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-westernorth.html">
+                <i class="bi bi-circle"></i><span>Western North Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-oti.html">
+                <i class="bi bi-circle"></i><span>Oti Region</span>
+              </a>
+            </li>
+            <a href="components-upperwest.html">
+              <i class="bi bi-circle"></i><span>Upper West Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-uppereast.html">
+              <i class="bi bi-circle"></i><span>Upper East Region</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+      </li><!-- End Components Nav -->
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+        
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      
+
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+     
+
+      
+
+    
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Northern Region</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Electricity Access</li>
+          <li class="breadcrumb-item active">Northern Region</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      
+ <!-- Greater Accra Region -->
+ <!-- <div class="region" onclick="toggleDistricts('accra-districts')"></div> -->
+ 
+
+
+            <!-- Northern Region -->
+            <div class="region">
+                <h2>Northern Region</h2>
+                <table>
+                  <tr>
+                      <th>Geographic Area</th>
+                      <th>Total Households</th>
+                      <th>Households with Electricity</th>
+                      <th>Households without Electricity</th>
+                      <th>Percentage with Electricity Access</th>
+                  </tr>
+                  <tr>
+                      <td>Achiase</td>
+                      <td>16593</td>
+                      <td>14514</td>
+                      <td>2079</td>
+                      <td>87.5%</td>
+                  </tr>
+                  <tr>
+                      <td>Asene Manso Akroso</td>
+                      <td>23807</td>
+                      <td>20749</td>
+                      <td>3058</td>
+                      <td>87.2%</td>
+                  </tr>
+                  <tr>
+                      <td>West Akim Municipal</td>
+                      <td>37643</td>
+                      <td>32584</td>
+                      <td>5059</td>
+                      <td>86.6%</td>
+                  </tr>
+                  <tr>
+                      <td>Upper West Akim</td>
+                      <td>29837</td>
+                      <td>24658</td>
+                      <td>5179</td>
+                      <td>82.6%</td>
+                  </tr>
+                  <tr>
+                      <td>Ayensuano</td>
+                      <td>28640</td>
+                      <td>25269</td>
+                      <td>3371</td>
+                      <td>88.2%</td>
+                  </tr>
+                  <tr>
+                      <td>Nsawam Adoagyiri Municipal</td>
+                      <td>47942</td>
+                      <td>44940</td>
+                      <td>3002</td>
+                      <td>93.7%</td>
+                  </tr>
+                  <tr>
+                      <td>Akwapim South Municipal</td>
+                      <td>22627</td>
+                      <td>19590</td>
+                      <td>3037</td>
+                      <td>86.6%</td>
+                  </tr>
+                  <tr>
+                      <td>Akwapim North Municipal</td>
+                      <td>30517</td>
+                      <td>27311</td>
+                      <td>3206</td>
+                      <td>89.5%</td>
+                  </tr>
+                  <tr>
+                      <td>Okere</td>
+                      <td>15017</td>
+                      <td>12995</td>
+                      <td>2022</td>
+                      <td>86.5%</td>
+                  </tr>
+                  <tr>
+                      <td>New Juaben South Municipal</td>
+                      <td>45190</td>
+                      <td>44150</td>
+                      <td>1040</td>
+                      <td>97.7%</td>
+                  </tr>
+                  <tr>
+                      <td>New Juaben North Municipal</td>
+                      <td>26925</td>
+                      <td>25660</td>
+                      <td>1265</td>
+                      <td>95.3%</td>
+                  </tr>
+                  <tr>
+                      <td>Suhum Municipal</td>
+                      <td>39891</td>
+                      <td>36550</td>
+                      <td>3341</td>
+                      <td>91.6%</td>
+                  </tr>
+                  <tr>
+                      <td>Abuakwa North Municipal</td>
+                      <td>23217</td>
+                      <td>20813</td>
+                      <td>2404</td>
+                      <td>89.6%</td>
+                  </tr>
+                  <tr>
+                      <td>Abuakwa South Municipal</td>
+                      <td>26653</td>
+                      <td>23375</td>
+                      <td>3278</td>
+                      <td>87.7%</td>
+                  </tr>
+                  <tr>
+                      <td>Denkyembuor</td>
+                      <td>24199</td>
+                      <td>22357</td>
+                      <td>1742</td>
+                      <td>92.8%</td>
+                  </tr>
+                  <tr>
+                      <td>Akyemansa</td>
+                      <td>26774</td>
+                      <td>24650</td>
+                      <td>2124</td>
+                      <td>92.1%</td>
+                  </tr>
+                  <tr>
+                      <td>Kwaebibirem Municipal</td>
+                      <td>37075</td>
+                      <td>33704</td>
+                      <td>3371</td>
+                      <td>90.9%</td>
+                  </tr>
+                  <tr>
+                      <td>Birim North</td>
+                      <td>24817</td>
+                      <td>22853</td>
+                      <td>1964</td>
+                      <td>92.1%</td>
+                  </tr>
+                  <tr>
+                      <td>Atiwa West</td>
+                      <td>17872</td>
+                      <td>15984</td>
+                      <td>1888</td>
+                      <td>89.4%</td>
+                  </tr>
+                  <tr>
+                      <td>Northern</td>
+                      <td>437771</td>
+                      <td>348946</td>
+                      <td>88825</td>
+                      <td>79.7%</td>
+                  </tr>
+                  <tr>
+                      <td>Kpandai</td>
+                      <td>25262</td>
+                      <td>19602</td>
+                      <td>5660</td>
+                      <td>77.6%</td>
+                  </tr>
+                  <tr>
+                      <td>Nanumba South</td>
+                      <td>17261</td>
+                      <td>9978</td>
+                      <td>7331</td>
+                      <td>57.8%</td>
+                  </tr>
+                  <tr>
+                      <td>Nanumba North Municipal</td>
+                      <td>30612</td>
+                      <td>22780</td>
+                      <td>7832</td>
+                      <td>74.4%</td>
+                  </tr>
+                  <tr>
+                      <td>Zabzugu</td>
+                      <td>13735</td>
+                      <td>8774</td>
+                      <td>4961</td>
+                      <td>63.9%</td>
+                  </tr>
+                  <tr>
+                      <td>Tatale Sanguli</td>
+                      <td>12973</td>
+                      <td>5796</td>
+                      <td>7177</td>
+                      <td>44.7%</td>
+                  </tr>
+                  <tr>
+                    <td>Tatale Sanguli</td>
+                    <td>12973</td>
+                    <td>5796</td>
+                    <td>7177</td>
+                    <td>44.7%</td>
+                </tr>
+                <tr>
+                    <td>Saboba</td>
+                    <td>15432</td>
+                    <td>7938</td>
+                    <td>7494</td>
+                    <td>51.4%</td>
+                </tr>
+                <tr>
+                    <td>Yendi Municipal</td>
+                    <td>28647</td>
+                    <td>21514</td>
+                    <td>7133</td>
+                    <td>75.1%</td>
+                </tr>
+                <tr>
+                    <td>Mion</td>
+                    <td>15393</td>
+                    <td>7104</td>
+                    <td>8289</td>
+                    <td>46.1%</td>
+                </tr>
+                <tr>
+                    <td>Nanton</td>
+                    <td>9514</td>
+                    <td>8278</td>
+                    <td>1236</td>
+                    <td>87.0%</td>
+                </tr>
+                <tr>
+                    <td>Tamale Metropolitan Area (TMA)</td>
+                    <td>88966</td>
+                    <td>86784</td>
+                    <td>2182</td>
+                    <td>97.5%</td>
+                </tr>
+                <tr>
+                    <td>TMA-Tamale South</td>
+                    <td>55702</td>
+                    <td>53782</td>
+                    <td>1920</td>
+                    <td>96.5%</td>
+                </tr>
+                <tr>
+                    <td>TMA-Tamale Central</td>
+                    <td>33264</td>
+                    <td>33002</td>
+                    <td>262</td>
+                    <td>99.2%</td>
+                </tr>
+                <tr>
+                    <td>Sagnarigu Municipal</td>
+                    <td>73633</td>
+                    <td>72132</td>
+                    <td>1501</td>
+                    <td>98.0%</td>
+                </tr>
+                <tr>
+                    <td>Tolon</td>
+                    <td>18295</td>
+                    <td>15859</td>
+                    <td>2436</td>
+                    <td>86.7%</td>
+                </tr>
+                <tr>
+                    <td>Kumbungu</td>
+                    <td>17762</td>
+                    <td>15171</td>
+                    <td>2591</td>
+                    <td>85.4%</td>
+                </tr>
+                <tr>
+                    <td>Savelugu Municipal</td>
+                    <td>23082</td>
+                    <td>20257</td>
+                    <td>2825</td>
+                    <td>87.8%</td>
+                </tr>
+                <tr>
+                    <td>Karaga</td>
+                    <td>19531</td>
+                    <td>14541</td>
+                    <td>4990</td>
+                    <td>74.4%</td>
+                </tr>
+                <tr>
+                    <td>Gushegu Municipal</td>
+                    <td>27625</td>
+                    <td>12438</td>
+                    <td>15187</td>
+                    <td>45.0%</td>
+                </tr>
+                
+              </table>
+            </div>
+
+            <!-- Add more regions here as needed -->
+        </div>
+
+    </div>
+
+
+        
+
+              
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+   <script>
+    function toggleDistricts(districtId) {
+        var districtDiv = document.getElementById(districtId);
+        if (districtDiv.style.display === "none" || districtDiv.style.display === "") {
+            districtDiv.style.display = "block";
+        } else {
+            districtDiv.style.display = "none";
+        }
+    }
+</script> 
+
+</body>
+
+</html>

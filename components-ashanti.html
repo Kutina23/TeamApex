@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Team Apex</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Team Apex</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>New Data Update Available!</h4>
+                <p>The latest electricity access data for all regions has been updated. Click here to view the new insights."
+                </p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>System Maintenance Scheduled</h4>
+                <p>Scheduled system maintenance will occur on September 15th from 2:00 AM to 5:00 AM. Services may be temporarily unavailable.</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>New Feature Released!</h4>
+                <p>A new feature to monitor renewable energy usage in households has been added. Explore it in the dashboard!</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Energy Consumption Alert</h4>
+                <p>Your energy consumption exceeded 20% more than last month. Check your usage in the Home Automation panel for details.</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>I love how easy it is to access energy data for different regions and the chatbot gave me the information I needed quickly. Great job on the interface!</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>The dashboard is very user-friendly. I was able to get insights on electricity access within seconds</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>The data on electricity access took too long to load...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+       >
+          </a><!-- End Profile Iamge Icon -->
+
+          
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Electricity Access</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-wester.html">
+              <i class="bi bi-circle"></i><span>Western Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-central.html">
+              <i class="bi bi-circle"></i><span>Central Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-accra.html">
+              <i class="bi bi-circle"></i><span>Greater Accra Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-volta.html">
+              <i class="bi bi-circle"></i><span>Volta Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-ashanti.html">
+              <i class="bi bi-circle"></i><span>Ashanti Region</span>
+            </a>
+          </li>
+          <li>
+            <li>
+              <a href="components-northern.html">
+                <i class="bi bi-circle"></i><span>Northern Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-eastern.html">
+                <i class="bi bi-circle"></i><span>Eastern Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-bono.html">
+                <i class="bi bi-circle"></i><span>Bono Region</span>
+              </a>
+            </li>
+            <li>
+            
+                <a href="components-savaana.html">
+                  <i class="bi bi-circle"></i><span>Savannah Region</span>
+                </a>
+              </li>
+              <li>
+                <a href="components-ahafo.html">
+                  <i class="bi bi-circle"></i><span>Ahafo Region</span>
+                </a>
+              </li>
+              <li>
+                <a href="components-bonoeast.html">
+                  <i class="bi bi-circle"></i><span>Bono East Region</span>
+                </a>
+              </li>
+              <li>
+              <a href="components-northeast.html">
+                <i class="bi bi-circle"></i><span>North East Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-westernorth.html">
+                <i class="bi bi-circle"></i><span>Western North Region</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-oti.html">
+                <i class="bi bi-circle"></i><span>Oti Region</span>
+              </a>
+            </li>
+            <a href="components-upperwest.html">
+              <i class="bi bi-circle"></i><span>Upper West Region</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-uppereast.html">
+              <i class="bi bi-circle"></i><span>Upper East Region</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+      </li><!-- End Components Nav -->
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+         
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      
+      </li><!-- End Charts Nav -->
+
+      
+
+     
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      
+
+      
+    
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Ashanti Region</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Electricity Access</li>
+          <li class="breadcrumb-item active">Ashanti Region</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      
+ <!-- Greater Accra Region -->
+ <!-- <div class="region" onclick="toggleDistricts('accra-districts')"></div> -->
+ 
+
+    
+    <!-- Container for Regions (Rows and Columns Layout) -->
+    <div class="regions-container">
+
+        <!-- Row 1 -->
+        <div class="row">
+
+           
+
+            <!-- Ashanti Region -->
+            <div class="region">
+                <h2>Ashanti Region</h2>
+                <table>
+                  <thead>
+                    <tr>
+                        <th>District</th>
+                        <th>Total Households</th>
+                        <th>Households with Electricity</th>
+                        <th>Households without Electricity</th>
+                        <th>Percentage with Electricity Access</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ashanti</td>
+                        <td>1,521,809</td>
+                        <td>1,347,587</td>
+                        <td>174,222</td>
+                        <td>88.55%</td>
+                    </tr>
+                    <tr>
+                        <td>Amansie South</td>
+                        <td>39,632</td>
+                        <td>34,905</td>
+                        <td>4,727</td>
+                        <td>88.08%</td>
+                    </tr>
+                    <tr>
+                        <td>Amansie Central</td>
+                        <td>29,335</td>
+                        <td>23,283</td>
+                        <td>6,052</td>
+                        <td>79.35%</td>
+                    </tr>
+                    <tr>
+                        <td>Akrofuom</td>
+                        <td>15,613</td>
+                        <td>9,073</td>
+                        <td>6,540</td>
+                        <td>58.10%</td>
+                    </tr>
+                    <tr>
+                        <td>Adansi South</td>
+                        <td>24,102</td>
+                        <td>17,320</td>
+                        <td>6,782</td>
+                        <td>71.89%</td>
+                    </tr>
+                    <tr>
+                        <td>Adansi Asokwa</td>
+                        <td>18,948</td>
+                        <td>15,562</td>
+                        <td>3,386</td>
+                        <td>82.14%</td>
+                    </tr>
+                    <tr>
+                        <td>Obuasi East</td>
+                        <td>27,776</td>
+                        <td>27,032</td>
+                        <td>744</td>
+                        <td>97.32%</td>
+                    </tr>
+                    <tr>
+                        <td>Obuasi Municipal</td>
+                        <td>31,689</td>
+                        <td>30,935</td>
+                        <td>754</td>
+                        <td>97.62%</td>
+                    </tr>
+                    <tr>
+                        <td>Adansi North</td>
+                        <td>14,990</td>
+                        <td>13,683</td>
+                        <td>1,307</td>
+                        <td>91.28%</td>
+                    </tr>
+                    <tr>
+                        <td>Bekwai Municipal</td>
+                        <td>38,309</td>
+                        <td>35,060</td>
+                        <td>3,249</td>
+                        <td>91.52%</td>
+                    </tr>
+                    <tr>
+                        <td>Amansie West</td>
+                        <td>33,128</td>
+                        <td>30,492</td>
+                        <td>2,636</td>
+                        <td>92.04%</td>
+                    </tr>
+                    <tr>
+                        <td>Atwima Kwanwoma</td>
+                        <td>64,312</td>
+                        <td>60,227</td>
+                        <td>4,085</td>
+                        <td>93.65%</td>
+                    </tr>
+                    <tr>
+                        <td>Bosomtwi</td>
+                        <td>46,102</td>
+                        <td>42,182</td>
+                        <td>3,920</td>
+                        <td>91.50%</td>
+                    </tr>
+                    <tr>
+                        <td>Bosome Freho</td>
+                        <td>16,794</td>
+                        <td>15,167</td>
+                        <td>1,627</td>
+                        <td>90.31%</td>
+                    </tr>
+                    <tr>
+                        <td>Asante Akim Central Municipal</td>
+                        <td>28,113</td>
+                        <td>24,770</td>
+                        <td>3,343</td>
+                        <td>88.10%</td>
+                    </tr>
+                    <tr>
+                        <td>Asante Akim South Municipal</td>
+                        <td>33,697</td>
+                        <td>28,557</td>
+                        <td>5,140</td>
+                        <td>84.74%</td>
+                    </tr>
+                    <tr>
+                        <td>Asante Akim North Municipal</td>
+                        <td>26,364</td>
+                        <td>20,227</td>
+                        <td>6,137</td>
+                        <td>76.71%</td>
+                    </tr>
+                    <tr>
+                        <td>Sekyere Kumawu</td>
+                        <td>16,639</td>
+                        <td>13,653</td>
+                        <td>2,986</td>
+                        <td>82.05%</td>
+                    </tr>
+                    <tr>
+                        <td>Sekyere East</td>
+                        <td>20,095</td>
+                        <td>17,975</td>
+                        <td>2,120</td>
+                        <td>89.45%</td>
+                    </tr>
+                    <tr>
+                        <td>Juaben Municipal</td>
+                        <td>18,166</td>
+                        <td>15,698</td>
+                        <td>2,468</td>
+                        <td>86.41%</td>
+                    </tr>
+                    <tr>
+                      <td>Ejisu Municipal</td>
+                      <td>50,294</td>
+                      <td>45,392</td>
+                      <td>4,902</td>
+                      <td>90.25%</td>
+                  </tr>
+                  <tr>
+                      <td>Oforikrom Municipal</td>
+                      <td>52,249</td>
+                      <td>50,082</td>
+                      <td>2,167</td>
+                      <td>95.85%</td>
+                  </tr>
+                  <tr>
+                      <td>Asokwa Municipal</td>
+                      <td>39,205</td>
+                      <td>37,997</td>
+                      <td>1,208</td>
+                      <td>96.92%</td>
+                  </tr>
+                  <tr>
+                      <td>Kumasi Metropolitan Area (KMA)</td>
+                      <td>136,564</td>
+                      <td>131,667</td>
+                      <td>4,897</td>
+                      <td>96.42%</td>
+                  </tr>
+                  <tr>
+                      <td>KMA-Nhyiaeso</td>
+                      <td>35,554</td>
+                      <td>34,038</td>
+                      <td>1,516</td>
+                      <td>95.74%</td>
+                  </tr>
+                  <tr>
+                      <td>KMA-Subin</td>
+                      <td>23,054</td>
+                      <td>22,469</td>
+                      <td>585</td>
+                      <td>97.46%</td>
+                  </tr>
+                  <tr>
+                      <td>KMA-Manhyia South</td>
+                      <td>13,777</td>
+                      <td>13,282</td>
+                      <td>495</td>
+                      <td>96.41%</td>
+                  </tr>
+                  <tr>
+                      <td>KMA-Manhyia North</td>
+                      <td>28,271</td>
+                      <td>27,257</td>
+                      <td>1,014</td>
+                      <td>96.41%</td>
+                  </tr>
+                  <tr>
+                      <td>KMA-Bantama</td>
+                      <td>35,908</td>
+                      <td>34,621</td>
+                      <td>1,287</td>
+                      <td>96.42%</td>
+                  </tr>
+                  <tr>
+                      <td>Kwadaso Municipal</td>
+                      <td>46,651</td>
+                      <td>44,902</td>
+                      <td>1,749</td>
+                      <td>96.25%</td>
+                  </tr>
+                  <tr>
+                      <td>Suame Municipal</td>
+                      <td>43,128</td>
+                      <td>42,086</td>
+                      <td>1,042</td>
+                      <td>97.58%</td>
+                  </tr>
+                  <tr>
+                      <td>Old Tafo Municipal</td>
+                      <td>35,011</td>
+                      <td>34,171</td>
+                      <td>840</td>
+                      <td>97.60%</td>
+                  </tr>
+                  <tr>
+                      <td>Asokore Mampong Municipal</td>
+                      <td>53,390</td>
+                      <td>51,774</td>
+                      <td>1,616</td>
+                      <td>96.97%</td>
+                  </tr>
+                  <tr>
+                      <td>Kwabre East</td>
+                      <td>78,637</td>
+                      <td>74,121</td>
+                      <td>4,516</td>
+                      <td>94.25%</td>
+                  </tr>
+                  <tr>
+                      <td>Afigya Kwabre South</td>
+                      <td>62,651</td>
+                      <td>59,120</td>
+                      <td>3,531</td>
+                      <td>94.36%</td>
+                  </tr>
+                  <tr>
+                      <td>Atwima Nwabiagya North</td>
+                      <td>40,593</td>
+                      <td>37,977</td>
+                      <td>2,616</td>
+                      <td>93.56%</td>
+                  </tr>
+                  <tr>
+                      <td>Atwima Nwabiagya South Municipal</td>
+                      <td>45,377</td>
+                      <td>42,313</td>
+                      <td>3,064</td>
+                      <td>93.25%</td>
+                  </tr>
+                  <tr>
+                      <td>Atwima Mponua</td>
+                      <td>43,268</td>
+                      <td>33,538</td>
+                      <td>9,730</td>
+                      <td>77.49%</td>
+                  </tr>
+                  <tr>
+                      <td>Ahafo Ano South West</td>
+                      <td>17,603</td>
+                      <td>10,356</td>
+                      <td>7,247</td>
+                      <td>58.84%</td>
+                  </tr>
+                  <tr>
+                      <td>Ahafo Ano North Municipal</td>
+                      <td>24,847</td>
+                      <td>16,117</td>
+                      <td>8,730</td>
+                      <td>64.87%</td>
+                  </tr>
+                  <tr>
+                      <td>Ahafo Ano South East</td>
+                      <td>16,182</td>
+                      <td>10,333</td>
+                      <td>5,849</td>
+                      <td>63.87%</td>
+                  </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+
+           
+
+            <!-- Add more regions here as needed -->
+        </div>
+
+    </div>
+
+
+        
+
+              
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Team Apex</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">Team Apex</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+   <script>
+    function toggleDistricts(districtId) {
+        var districtDiv = document.getElementById(districtId);
+        if (districtDiv.style.display === "none" || districtDiv.style.display === "") {
+            districtDiv.style.display = "block";
+        } else {
+            districtDiv.style.display = "none";
+        }
+    }
+</script> 
+
+</body>
+
+</html>
