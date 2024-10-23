@@ -328,7 +328,7 @@ let userMessage = null; // Variable to store user's message
 const inputInitHeight = chatInput.scrollHeight;
 
 // Replace with your valid OpenAI API key
-const API_KEY = ""; 
+const API_KEY = "sk-J8TmVpoF0s35EqtFd21AwLeRstpZ3ngniyAFQry3KDT3BlbkFJMvkd3tF5t6Ag19SoklsFTotvKy1qa22W9IA5Ira0YA"; 
 const API_URL = "https://api.openai.com/v1/chat/completions";
 
 const createChatLi = (message, className) => {
